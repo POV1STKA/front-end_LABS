@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Форма з валідацією та таблиця</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Форма з валідацією</h2>
+        <div class="form-group">
+            <label for="name">ПІБ (Формат: ТТТТТТ Т.Т.)</label>
+            <input type="text" id="name" name="name">
+            <div class="error-message" id="nameError"></div>
+        </div>
+        <div class="form-group">
+            <label for="dob">Дата народження (Формат: ЧЧ.ЧЧ.ЧЧЧЧ)</label>
+            <input type="text" id="dob" name="dob">
+            <div class="error-message" id="dobError"></div>
+        </div>
+        <div class="form-group">
+            <label for="address">Адреса (Формат: м. TTTTT)</label>
+            <input type="text" id="address" name="address">
+            <div class="error-message" id="addressError"></div>
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail (Формат: тттттт@ттттт.com)</label>
+            <input type="text" id="email" name="email">
+            <div class="error-message" id="emailError"></div>
+        </div>
+        <div class="form-group">
+            <label for="telegram">Telegram (Формат: @Т_ТТТТТ)</label>
+            <input type="text" id="telegram" name="telegram">
+            <div class="error-message" id="telegramError"></div>
+        </div>
+        <button onclick="validateForm()">Відправити</button>
+    </div>
+    
+    <div id="resultContainer" class="result-container"></div>
+    
+<div class="table-container">
+    <h2>Завдання 2</h2>
+    <input class="colorButton" type="color" id="colorPicker" title="Виберіть колір">
+    <table id="colorTable"></table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
