@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/front-end_LABS/lab7/static/css/main.c5259347.css",
+    "main.js": "/front-end_LABS/lab7/static/js/main.1334905d.js",
+    "static/js/373.f4ffb2df.chunk.js": "/front-end_LABS/lab7/static/js/373.f4ffb2df.chunk.js",
+    "static/media/ananas.jpg": "/front-end_LABS/lab7/static/media/ananas.778546e4303e5270e3c7.jpg",
+    "static/media/mandarin.jpg": "/front-end_LABS/lab7/static/media/mandarin.0eafe701f123e0f3c73b.jpg",
+    "static/media/pomelo.jpg": "/front-end_LABS/lab7/static/media/pomelo.fec7743ae55877d633ea.jpg",
+    "static/media/pitaiya-cervona.jpg": "/front-end_LABS/lab7/static/media/pitaiya-cervona.c3f73e4675e8de8c0124.jpg",
+    "static/media/xurma-saron.jpg": "/front-end_LABS/lab7/static/media/xurma-saron.5561dab0c09ea7e2e228.jpg",
+    "static/media/feixoa.jpg": "/front-end_LABS/lab7/static/media/feixoa.03dc8f9e3777b5eb9998.jpg",
+    "index.html": "/front-end_LABS/lab7/index.html",
+    "main.c5259347.css.map": "/front-end_LABS/lab7/static/css/main.c5259347.css.map",
+    "main.1334905d.js.map": "/front-end_LABS/lab7/static/js/main.1334905d.js.map",
+    "373.f4ffb2df.chunk.js.map": "/front-end_LABS/lab7/static/js/373.f4ffb2df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5259347.css",
+    "static/js/main.1334905d.js"
+  ]
+}
